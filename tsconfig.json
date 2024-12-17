@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",  // Ensure correct module resolution
+    "jsx": "react-native",       // For React Native projects
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]           // Alias setup (optional)
+    }
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+}
